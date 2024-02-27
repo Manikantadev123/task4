@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <style>
+            body{
+                background-color: blue;
+            }
+            form{
+                text-align: center;
+            }
+            fieldset{
+                text-align: center; border-color: brown; border-width: 0px;
+                width: 100%; height: 70%;
+            }
+            div{
+                  background-color: aqua; 
+                  width: 50%; margin: 50px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+            <fieldset>
+            
+                    
+                <legend><mark>Please provide details:</mark></legend>
+            <label for="f_n">First Name:</label>
+           &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp<input type="text" id="f_n" name="fn"/>
+        <br><br><label for="m_n">Middle Name:</label>
+        &nbsp &nbsp &nbsp &nbsp<input type="text" id="m_n" name="mn"/>
+       <br> <br><label for="l_n">Last Name:</label>
+        &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" id="l_n" name="ln"/>
+       <br> <br> <label for="num">Mobile Number:</label>
+        &nbsp  &nbsp<input type="number" id="num" name=number/>
+        <br><br><label for="adr">Adhar Number:</label>
+        &nbsp &nbsp &nbsp<input type="number" id="adr" name="adhar"/>
+       <br><br> <label for="date">Date Of Birth:</label>
+       &nbsp &nbsp &nbsp &nbsp<input type="date" id="date" name="date"/>
+        <br><br><label for="gender">Gender:</label>
+            <input type="radio" id="grnder" name="gender"/>male
+            <input type="radio" id="grnder" name="gender"/>female
+            <input type="radio" id="grnder" name="gender"/>others
+            
+            </fieldset>
+            </div>
+
+
+           <br><input type="submit"/>  
+            
+        </form>
+    </body>
+</html>
